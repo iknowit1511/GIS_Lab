@@ -1,7 +1,7 @@
-export const bac_lieu = {
-    title: "Thành phố Bạc Liêu",
-    population: "1.043.764",
-    area: "2.667,88",
+export const gia_rai = {
+    title: "Thị xã Giá Rai",
+    population: "3166.324 ",
+    area: "353,99 ",
     color: [254,0,0, 0.8],
     rings: [
       [105.2893479514237, 9.275391290025942],
