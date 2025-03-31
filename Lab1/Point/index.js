@@ -1,6 +1,6 @@
-import { kien_giang_city } from "./kien_giang_city.js";
+import { nha_ctbl } from "./nha_ctbl.js";
 
 const Cities = [
-  
+  nha_ctbl,
 ];
 export default Cities;
