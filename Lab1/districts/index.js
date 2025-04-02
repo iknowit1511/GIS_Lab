@@ -1,19 +1,14 @@
-import { an_giang } from "./an_giang.js";
-import { bac_lieu } from "./bac_lieu.js";
-import { ben_tre } from "./ben_tre.js";
-import { ca_mau } from "./ca_mau.js";
-import { can_tho } from "./can_tho.js";
-import { dong_thap } from "./dong_thap.js";
-import { hau_giang } from "./hau_giang.js";
-import { kien_giang } from "./kien_giang.js";
-import { long_an } from "./long_an.js";
-import { soc_trang } from "./soc_trang.js";
-import { tien_giang } from "./tien_giang.js";
-import { tra_vinh } from "./tra_vinh.js";
-import { vinh_long } from "./vinh_long.js";
+import { bac_lieu_city } from "./bac_lieu_city.js";
+import { gia_rai } from "./gia_rai.js";
+import { hong_dan } from "./hong_dan.js";
+import { phuoc_long } from "./phuoc_long.js";
+import { vinh_loi } from "./vinh_loi.js";
+import { dong_hai } from "./dong_hai.js";
+import { hoa_binh } from "./hoa_binh.js";
+
 
 const Districs = [
-    bac_lieu,
+    bac_lieu_city,
     gia_rai,
     hong_dan,
     phuoc_long,

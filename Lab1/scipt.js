@@ -1,6 +1,7 @@
 import Ways from "./ways/index.js";
-import Cities from "./cities/index.js";
-import * as Icon from "./icons/index.js";
+import Districts from "./districts/index.js";
+import Point from "./Point/index.js";
+
 require([
   "esri/config",
   "esri/Map",
@@ -26,7 +27,7 @@ require([
       attributes: data,
       popupTemplate: {
         title: "{title}",
-        content: "<a>Dân số: {population} người <br> Diện tích: {area} km²</a>",
+        content: "<a>Dân số: {population} người <br> Diện tích: {area} km²</a> <br>Huyện Hồng Dân tương đối bằng phẳng và thấp, hướng nghiêng chính từ Tây Bắc xuống Đông Nam, cao độ trung bình khoảng 0,2 đến 0,8m, độ dốc trung bình 1 – 1,5 cm/km. Tuy nhiên, trên địa bàn huyện có khu vực trũng hơn so với mặt bằng chung từ 20 – 30 cm, tập trung chủ yếu ở một số ấp của các xã: Ninh Hòa, Ninh Quới, Ninh Quới A, Lộc Ninh, Ninh Thạnh Lợi, Vĩnh Lộc, Vĩnh Lộc A. Mặt khác, trên địa bàn huyện có nhiều ao, hồ, khu vực đất ruộng và nuôi tôm có nhiều mương rạch chia cắt, địa hình tuy thuận lợi cho thoát nước nhưng lại khó khăn trong xây dựng cơ bản",
       },
     });
   };
@@ -41,37 +42,35 @@ require([
     });
   };
 
-  const withCity = (data) => {
+  const withPoint = (data) => {
     return new Graphic({
-      symbol: {
-        type: "picture-marker",
-        url: Icon.cityIcon,
-        width: "30px",
-        height: "30px",
-      },
+      // symbol: {
+      //   type: "picture-marker",
+      //   url: Icon.cityIcon,
+      //   width: "30px",
+      //   height: "30px",
+      // },
       geometry: { type: "point", ...data },
       attributes: data,
       popupTemplate: {
-        title: "Thành Phố {title}",
-        content: "<a>Toạ độ: {longitude}, {latitude}</a>",
+        title: "{title}",
+        content: "<a>Toạ độ: {longitude}, {latitude}</a> <br> {description}",
       },
     });
   };
 
-  // huyện
-  Provinces.forEach((province) => {
-    graphicsLayer.add(withDistrict(province));
+  Districts.forEach((district) => {
+    graphicsLayer.add(withDistrict(district));
   });
 
-  // đường
   Ways.forEach((way) => {
     graphicsLayer.add(withWay(way));
   });
 
-  // thành phố
-  Cities.forEach((city) => {
-    graphicsLayer.add(withCity(city));
+  Point.forEach((point) => {
+    graphicsLayer.add(withPoint(point));
   });
+
 
   map.add(graphicsLayer);
 });
