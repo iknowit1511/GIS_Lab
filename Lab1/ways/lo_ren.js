@@ -1,7 +1,7 @@
 export const lo_ren = {
     description:
       "<a>Đường Lò Rèn, <br/>Chiều dài 168km,  <br/>Đi qua Vĩnh Long-Trà Vinh</a>",
-      color: [0,0,0],
+      // color: [0,0,0],
     paths: [
         [105.76027452440694, 9.238870895954717],
         [105.76027023289707, 9.238879367692329],

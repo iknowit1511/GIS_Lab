@@ -1,7 +1,7 @@
 export const tc_ah = {
     description:
       "<a>Đường Vào Xã Châu Thới Anh Hùng - Đường 19/5<br/>Chiều dài 876km,  <br/>Đi qua huyện Vĩnh Lợi - Xã Châu Thới</a>",
-    color: [0, 128, 0, 0.4],
+    // color: [49, 11, 0, 76],
     paths: [
       [105.64296633445854, 9.379892798045807],
       [105.64298812740678, 9.37991463040224],

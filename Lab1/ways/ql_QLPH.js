@@ -1,7 +1,7 @@
 export const ql_QLPH= {
     description:
       "<a>Đường Quốc lộ Quản Lộ - Phụng Hiệp, <br/>Chiều dài 168km,  <br/>Đi qua Vĩnh Long-Trà Vinh</a>",
-      color: [0,0,0],
+      // color: [0,0,0],
     paths: [
         [105.2326806559791, 9.219226196528794],
         [105.23284326490057, 9.219296687853067],

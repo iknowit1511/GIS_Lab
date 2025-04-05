@@ -1,7 +1,7 @@
 export const hoang_sa = {
     description:
       "<a>Đường Hoàng Sa, <br/>Chiều dài 253km,  <br/>Đi qua Vĩnh Long-Trà Vinh</a>",
-      color: [0,0,0],
+      // color: [0,0,0],
     paths: [
         [105.82723504371634, 9.245520103490485],
         [105.82698828048693, 9.245474215732674],
