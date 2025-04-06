@@ -1,6 +1,7 @@
 import Ways from "./ways/index.js";
 import Districts from "./districts/index.js";
 import Points from "./points/index.js";
+import * as Icon from "./icons/index.js";
 
   require([
     "esri/config",
@@ -41,7 +42,7 @@ import Points from "./points/index.js";
 
   const withWay = (data) => {
     return new Graphic({
-      symbol: { type: "simple-line", color: [247, 37, 133], width: 4 },
+      symbol: { type: "simple-line", color: [0,0,0], width: 4 },
       attributes: { description: data.description },
       popupTemplate: { title: "{description}" },
       geometry: { type: "polyline", paths: data.paths },
@@ -50,12 +51,12 @@ import Points from "./points/index.js";
 
   const withPoint = (data) => {
     return new Graphic({
-      // symbol: {
-      //   type: "picture-marker",
-      //   url: Icon.cityIcon,
-      //   width: "30px",
-      //   height: "30px",
-      // },
+      symbol: {
+        type: "picture-marker",
+        url: Icon.Icon_1,
+        width: "30px",
+        height: "30px",
+      },
       geometry: { type: "point", ...data },
       attributes: data,
       popupTemplate: {

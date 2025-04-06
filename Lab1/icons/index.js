@@ -1,3 +1,3 @@
-// import { cityIcon } from "./city_icon.js";
-// import { bridgeIcon } from "./bridge_icon.js";
-// export { cityIcon, bridgeIcon };
+import { Icon_1} from "./icon_1.js";
+export { Icon_1 };
+
