@@ -43,8 +43,11 @@ import * as Icon from "./icons/index.js";
   const withWay = (data) => {
     return new Graphic({
       symbol: { type: "simple-line", color: [178, 30, 53], width: 4 },
-      attributes: { description: data.description },
-      popupTemplate: { title: "{description}" },
+      attributes: data,
+      popupTemplate: { 
+        title: "{title}" ,
+        content: "<a>Chiều dài: {length} km <br>{description}</a> <br>",
+      },
       geometry: { type: "polyline", paths: data.paths },
     });
   };
@@ -61,7 +64,7 @@ import * as Icon from "./icons/index.js";
       attributes: data,
       popupTemplate: {
         title: "{title}",
-        content: "<a>Toạ độ: {longitude}, {latitude}</a> <br> {description}",
+        content: "<a>Toạ độ: {longitude}, {latitude}</a> <br> Mô tả: {description}",
       },
     });
   };

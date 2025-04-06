@@ -1,6 +1,7 @@
 export const ql_QLPH= {
-    description:
-      "<a>Đường Quốc lộ Quản Lộ - Phụng Hiệp, <br/>Chiều dài 53.8km,  <br/>Đi qua Hồng Dân, Phước Long, Giá Rai</a>",
+    title: 'Đường Quốc lộ Quản Lộ - Phụng Hiệp',
+    length: 53.8,
+    description: "Đi qua Hồng Dân, Phước Long, Giá Rai",
       // color: [0,0,0],
     paths: [
         [105.2326806559791, 9.219226196528794],

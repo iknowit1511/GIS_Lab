@@ -1,6 +1,7 @@
 export const hoang_sa = {
-    description:
-      "<a>Đường Hoàng Sa, <br/>Chiều dài 10.7km,  <br/>Thuộc địa phận Thành phố Bạc Liêu</a>",
+    title: 'Đường Hoàng Sa',
+    length: 10.7,
+    description: "Thuộc địa phận Thành phố Bạc Liêu",
       // color: [0,0,0],
     paths: [
         [105.82723504371634, 9.245520103490485],

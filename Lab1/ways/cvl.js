@@ -1,6 +1,9 @@
 export const cvl = {
+  title: 'Đường Cao Văn Lầu',
+  length: 6.3,
+
     description:
-      "<a>Đường Cao Văn Lầu, <br/>Chiều dài 6.3km,  <br/>Thuộc địa phận Thành phố Bạc Liêu</a>",
+      "Thuộc địa phận Thành phố Bạc Liêu",
       // color: [0,0,0],
     paths: [
         [105.7239513230336, 9.285366955762983],

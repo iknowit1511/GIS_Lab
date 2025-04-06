@@ -1,6 +1,7 @@
 export const dt38 = {
-    description:
-      "<a>Đường ĐT38, <br/>Chiều dài 8.7km,  <br/>Thuộc địa phận Thành phố Bạc Liêu</a>",
+    title: 'Đường ĐT38',
+    length: 8.7,
+    description:"Thuộc địa phận Thành phố Bạc Liêu",
       // color: [0,0,0],
     paths: [
         [105.81793766193691, 9.316327681779553],

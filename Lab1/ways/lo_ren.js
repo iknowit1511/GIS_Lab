@@ -1,6 +1,7 @@
 export const lo_ren = {
-    description:
-      "<a>Đường Lò Rèn, <br/>Chiều dài 6.6 km,  <br/>Thuộc địa phận Thành phố Bạc Liêu</a>",
+    title: 'Đường Lò Rèn',
+    length: 6.6,
+    description: "Thuộc địa phận Thành phố Bạc Liêu",
       // color: [0,0,0],
     paths: [
         [105.76027452440694, 9.238870895954717],

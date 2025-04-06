@@ -1,6 +1,7 @@
 export const de_bien = {
-    description:
-      "<a>Đường Đê Biển, <br/>Chiều dài 19.4km,  <br/>Đi qua huyện Bạc Liêu, Hòa Bình và Đông Hải</a>",
+    title: "Đường Đê Biển",
+    length: "19.4",
+    description: "Đi qua huyện Bạc Liêu, Hòa Bình và Đông Hải",
     // color: [3, 4, 94],
     paths: [
         
