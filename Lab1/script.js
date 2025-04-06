@@ -19,8 +19,8 @@ import * as Icon from "./icons/index.js";
   var view = new MapView({
   container: "viewDiv",
   map: map,
-  center: [105.578179, 9.392369],
-  zoom: 11,
+  center:[105.49171628495273, 9.355843219181887],
+  zoom: 10,
         highlightOptions: {
           color: "blue"
         }
