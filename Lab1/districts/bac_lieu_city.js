@@ -2,7 +2,7 @@ export const bac_lieu_city = {
   title: "Thành phố Bạc Liêu",
   population: "168.463",
   area: "213,72 km²",
-  color: [55,155,255, 0.8],
+  color: [88, 129, 87, 0.8],
   rings: [
   //Giap Huyen Hoa Binh
   [105.7304301856988, 9.197185720984422],

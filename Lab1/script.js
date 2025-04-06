@@ -42,7 +42,7 @@ import * as Icon from "./icons/index.js";
 
   const withWay = (data) => {
     return new Graphic({
-      symbol: { type: "simple-line", color: [0,0,0], width: 4 },
+      symbol: { type: "simple-line", color: [178, 30, 53], width: 4 },
       attributes: { description: data.description },
       popupTemplate: { title: "{description}" },
       geometry: { type: "polyline", paths: data.paths },

@@ -2,7 +2,7 @@ export const vinh_loi = {
     title: "Huyện Vĩnh Lợi",
     population: "118.737",
     area: "252,25",
-    color: [238, 239, 32, 0.8],
+    color: [166, 138, 100, 0.8],
     rings: [
         
         [105.58050139675856, 9.411396733224414],
